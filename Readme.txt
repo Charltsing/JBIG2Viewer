@@ -21,3 +21,31 @@ https://dotnet.microsoft.com/zh-cn/download/dotnet-framework/net472
 5、保存图像：支持JB2(黑白图)、Pgm(灰度图)，以及其它一些常见格式。
 6、图像窗口缩放：在图标栏最右边的数字上滚轮。
 
+JBIG2Viewer is currently not an open source tool, and the reason for not being open source is that it is currently under testing. In the near future, after passing the testing, I will open source this project.
+
+Software Description:
+
+The common image formats after exporting images embedded in PDF files include JPG, PNG, TIF, JBIG2, and JPEG2000. This software is mainly used to test PDF image extraction and replacement, JBIG2 encoding and decoding, image binarization and bleaching, and other functions. Free to use.
+
+Icon bar function sequence: Open file, save file, binary bleaching, reset original image, author website, binary parameters, bleaching width and depth, image display scaling
+
+
+System requirements:
+
+1. Visual C++2015-2022 runtime library, download website:
+https://aka.ms/vs/17/release/vc_redist.x86.exe
+https://aka.ms/vs/17/release/vc_redist.x64.exe
+
+2. . Net Framework 4.7.2, download website:
+https://dotnet.microsoft.com/zh-cn/download/dotnet-framework/net472
+
+
+Operating instructions:
+
+1. Image viewing: Drag and drop JBIG2, JP2000, JPG, PNG, TIF, BMP, GIF and other format images into the image box of the software window.
+2. Image binarization bleaching: Select the algorithm and drag the slider. Note that when the width of the WAN algorithm exceeds 17, the speed will significantly decrease. The Wolf algorithm may perform better than Sauvola.
+3. Extract PDF image: Dragging and dropping the PDF file into the image box of the software window will generate a pdfimage directory in the same directory as the file and extract the image.
+4. Replace PDF image: After modifying the extracted image, open the PDF file on the first icon in the icon bar, and the software will automatically search for the image directory and replace it.
+5. Save images: Supports JB2 (black and white image), Pgm (grayscale image), and other common formats.
+6. Image Window Zoom: Scroll on the number at the far right of the icon bar.
+
