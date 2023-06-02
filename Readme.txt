@@ -1,5 +1,3 @@
-![image](https://github.com/Charltsing/JBIG2Viewer/blob/main/screenshot.PNG)
-
 JBIG2Viewer目前并不是一个开源的工具，不开源的原因是它目前还在测试中。
 在不久的将来，测试通过之后，我会开源这个项目。
 
