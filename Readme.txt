@@ -1,5 +1,4 @@
-JBIG2Viewer目前并不是一个开源的工具，不开源的原因是它目前还在测试中。
-在不久的将来，测试通过之后，我会开源这个项目。
+JBIG2Viewer目前并不是一个开源的工具，不开源的原因是因为它仅仅是个测试工具。
 
 软件说明：
 PDF文件中内嵌的图像导出之后的常见图像格式包括：JPG、PNG(PNM)、TIF、JBIG2、JPEG2000，本软件主要用于测试PDF的图像图像提取和替换、JBIG2编解码、图像的二值化等功能。免费使用。
@@ -21,7 +20,7 @@ https://dotnet.microsoft.com/zh-cn/download/dotnet-framework/net472
 5、保存图像：支持JB2(黑白图)、Pgm(灰度图)，以及其它一些常见格式。
 6、图像窗口缩放：在图标栏最右边的数字上滚轮。
 
-JBIG2Viewer is currently not an open source tool, and the reason for not being open source is that it is currently under testing. In the near future, after passing the testing, I will open source this project.
+JBIG2Viewer is currently not an open source tool, and the reason why it is not open source is because it is only a testing tool. 
 
 Software Description:
 
